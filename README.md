@@ -24,8 +24,7 @@
 
 ---
 
-This repository contains the implementation of **MAGR++ (`magrpp`)**, an advanced framework for **Continual Action Quality Assessment (CAQA)**.  
-MAGR++ extends MAGR by integrating **layer-adaptive fine-tuning** and **asynchronous feature rectification**, effectively addressing the stability–adaptability dilemma in continual learning.  The model combines **Manifold Projector (MP)** and **Intra–Inter–Joint Graph Regularization (IIJ-GR)** to mitigate feature drift and regressor confusion while maintaining storage efficiency through **feature replay**.
+This repository contains the implementation of **MAGR++ (`magrpp`)**, an advanced framework for **Continual Action Quality Assessment (CAQA)**. MAGR++ extends MAGR by integrating **layer-adaptive fine-tuning** and **asynchronous feature rectification**, effectively addressing the stability–adaptability dilemma in continual learning. The model combines **Manifold Projector (MP)** and **Intra–Inter–Joint Graph Regularization (IIJ-GR)** to mitigate feature drift and regressor confusion while maintaining storage efficiency through **feature replay**.
 
 ![](framework.png)
 
@@ -33,15 +32,16 @@ MAGR++ extends MAGR by integrating **layer-adaptive fine-tuning** and **asynchro
 
 ## 🔧 Requirements
 
-- torch==1.12.0  
-- torchvision==0.13.0  
-- torchvideotransforms  
-- tqdm  
-- numpy  
-- scipy  
-- quadprog  
+- torch==1.12.0
+- torchvision==0.13.0
+- torchvideotransforms
+- tqdm
+- numpy
+- scipy
+- quadprog
 
 Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -110,7 +110,7 @@ This dataset is used to verify the cross-domain generalization capability of MAG
 
 ## 🧠 Pretrained Model
 
-Download [the I3D pretrained model](https://github.com/hassony2/kinetics_i3d_pytorch/tree/master/model) 
+Download [the I3D pretrained model](https://github.com/hassony2/kinetics_i3d_pytorch/tree/master/model)
 and place it in:
 
 ```bash
@@ -176,18 +176,14 @@ outputs/{user}/{dataset}/{exp_name}/logs
 
 ## 🧭 Key Highlights of MAGR++
 
--   **Layer-Adaptive Fine-Tuning:**  
-    Balances stability and adaptability by freezing shallow layers and fully tuning deeper ones adaptively.
-    
--   **Asynchronous Feature Rectification:**  
-    Decouples rectification from training to avoid premature noise accumulation.
-    
--   **Manifold Projector (MP):**  
-    Learns residual manifold shifts with lightweight MLPs for feature replay alignment.
-    
--   **Intra–Inter–Joint Graph Regularization (IIJ-GR):**  
-    Aligns structural relations in feature and score spaces for stable regression.
-    
+- **Layer-Adaptive Fine-Tuning:**  
+  Balances stability and adaptability by freezing shallow layers and fully tuning deeper ones adaptively.
+- **Asynchronous Feature Rectification:**  
+  Decouples rectification from training to avoid premature noise accumulation.
+- **Manifold Projector (MP):**  
+  Learns residual manifold shifts with lightweight MLPs for feature replay alignment.
+- **Intra–Inter–Joint Graph Regularization (IIJ-GR):**  
+  Aligns structural relations in feature and score spaces for stable regression.
 
 ---
 
@@ -201,6 +197,3 @@ We thank the authors for their contributions to the research community.
 ## 📬 Contact
 
 If you encounter issues or wish to discuss collaborations, please contact **Kanglei Zhou** or **Liyuan Wang**.
-
-
-
