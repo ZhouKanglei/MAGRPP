@@ -12,7 +12,7 @@
     <a href="http://hubertshum.com/"><strong>Hubert P. H. Shum</strong></a>,  
     <a href="https://frederickli.webspace.durham.ac.uk/"><strong>Frederick W. B. Li</strong></a>,  
     <a href="https://orcid.org/0000-0001-6351-2538"><strong>Xiaohui Liang</strong></a>,  
-    and <a href="https://lywang3081.github.io/"><strong>Liyuan Wang</strong></a>
+    and <a href="https://lywang3081.github.io/"><strong>Liyuan Wang</strong></a>*
   </div>
 
   <br/>
