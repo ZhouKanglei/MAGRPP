@@ -20,7 +20,13 @@
     Extended Version of <a href='https://github.com/ZhouKanglei/MAGR_CAQA'>MAGR (ECCV 2024 Oral Presentation)</a>
   </div>
   <br/>
+  <a href="https://arxiv.org/abs/2510.06842">
+  <img src="https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg" alt="a">
+  </a>
 </div>
+
+
+
 
 ---
 
